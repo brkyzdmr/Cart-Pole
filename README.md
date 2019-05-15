@@ -1,7 +1,7 @@
 # A3C Cart-Pole 
 
 * Help
-```python3
+```bash
 python a3c_cartpole.py --help
 ```
 ```bash
@@ -27,11 +27,11 @@ optional arguments:
 
 
 * train the model with 200 iteration
-```python3
+```bash
 python a3c_cartpole.py --train --max-eps 200 --save-dir ./200_iteration/
 ```
 
 * play with 200 iterated model
-```python3
+```bash
 python a3c_cartpole.py --max-eps 200 --save-dir ./200_iteration/
 ```
