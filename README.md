@@ -1,6 +1,14 @@
 # A3C Cart-Pole 
 
-* Help
+* [Cart-Pole Game](https://gym.openai.com/envs/CartPole-v1/)
+* [Algorithm](https://arxiv.org/abs/1602.01783)
+
+### Prerequisites:
+* [OpenAI Gym](https://github.com/openai/gym) - `pip install gym`
+* [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Home) - `pip install pyglet` 
+* [TensorFlow](https://www.tensorflow.org/install/) - `pip install tensorflow`
+
+### Help
 ```bash
 python a3c_cartpole.py --help
 ```
@@ -25,7 +33,7 @@ optional arguments:
 
 ```
 
-
+### Examples
 * train the model with 200 iteration
 ```bash
 python a3c_cartpole.py --train --max-eps 200 --save-dir ./200_iteration/
